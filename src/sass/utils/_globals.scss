@@ -1,0 +1,18 @@
+body {
+	font-family: var(--ff-primary);
+	background-color: var(--clr-gray-300);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: var(--fz-16);
+}
+button {
+	border: none;
+	cursor: pointer;
+}

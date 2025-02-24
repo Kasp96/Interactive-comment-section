@@ -1,0 +1,38 @@
+.comments-section {
+	margin-block: 2rem;
+
+	.comment-card {
+		background-color: var(--clr-gray-200);
+		border-radius: 6px;
+
+		.user-avatar {
+			width: 2rem;
+		}
+		.posting-date {
+			font-weight: 400;
+			color: var(--clr-gray-500);
+		}
+		.comment-text {
+			color: var(--clr-gray-500);
+		}
+
+		.voting-btn {
+			width: 100px;
+			padding: 6px;
+			gap: 11px;
+			border-radius: 10px;
+			background-color: var(--clr-gray-300);
+
+			.voting-counter {
+				margin-inline: 6px;
+				color: var(--clr-blue-500);
+				font-weight: 500;
+			}
+		}
+		.reply-btn {
+			background-color: transparent;
+            font-weight: 500;
+            color: var(--clr-blue-500);
+		}
+	}
+}
